@@ -55,7 +55,9 @@ function App() {
           By defining a dependency list that contains a state value, your useEffect callback will execute 'on update'
         </p>
         <p>
-          Example: when this count updates, an alert will pop on the screen.
+          Example: when this count updates, two toasts will pop on the screen.
+          One after the setCount() function is invoked. The other in a useEffect
+          hook after the state actually updates.
         </p>
         <ClickCounter />
         <p>
