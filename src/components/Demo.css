@@ -5,7 +5,7 @@
 .child-container {
   margin-top: 1rem;
   height: 4rem;
-  background-color: rgb(107, 107, 107);
+  background-color: rgba(50, 50, 50, 0.5);
   padding: 1rem;
   border-radius: 1rem;
 }
